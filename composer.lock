@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97931c60947130b4276f82da4220a34b",
+    "content-hash": "ebad5691b1a8fce92a86bb537642f5c5",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1122,6 +1122,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/my-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/sticky-custom-post-types",
+            "version": "1.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sticky-custom-post-types/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sticky-custom-post-types.zip?timestamp=1348905440"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sticky-custom-post-types/"
         },
         {
             "name": "wpackagist-plugin/tablepress",
